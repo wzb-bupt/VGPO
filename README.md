@@ -4,13 +4,6 @@
     VGPO: Visually-Guided Policy Optimization for Multimodal Reasoning
   </h1>  
 
-  <!-- <p align="center">
-    <a href='https://arxiv.org/abs/xxxx'>
-      <img src='https://img.shields.io/badge/Arxiv-VGPO-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
-    </a>
-
-  </p> -->
-
 **Zengbin Wang**<sup>1*</sup>, 
 **Feng Xiong**<sup>1*</sup>, 
 **Xuecai Hu**<sup>1†</sup>, 
@@ -41,8 +34,10 @@
   
   <p align="center">
     <img src="./assets/vgpo_pilot_experiences.png" width="90%" alt="VGPO Pilot Exp"/>
-    <figcaption style="text-align: center;">
-      Analysis of the inference nature of multimodal reasoning trajectory (based on Qwen2.5-VL-7B).
+    <figcaption>
+      <p align="center">
+        Analysis of the inference nature of multimodal reasoning trajectory (based on Qwen2.5-VL-7B).
+      </p>
     </figcaption>
     <!-- <figcaption style="text-align: center;">
       Analysis of the inference nature of multimodal reasoning trajectory (based on Qwen2.5-VL-7B). (a) An example of attention allocation across image, query, and generated text tokens (normalized to 1 at each step). (b) Average attention statistics on four visual-dependent benchmarks. (c) Distribution of late/early visual accumulation ratios for incorrect (left) vs. correct (right) samples of these four benchmarks. Incorrect samples often exhibit higher visual forgetting.
@@ -51,8 +46,10 @@
   
   <p align="center">
     <img src="./assets/vgpo_framework.png" width="90%" alt="VGPO Framework"/>
-    <figcaption style="text-align: center;">
-      Overview of Visually-Guided Policy Optimization framework.
+    <figcaption>
+      <p align="center">
+        Overview of Visually-Guided Policy Optimization framework.
+      </p>
     </figcaption>
     <!-- <figcaption style="text-align: center;">
       Overview of Visually-Guided Policy Optimization framework. Given query and image, (a) VGPO firstly utilizes the intrinsic hidden state similarity between generated tokens and visual prototype to derive a Visual Focus Score for visual token localization. (b) Then, Visual Attention Compensation (VAC) mechanism leverages this score to re-focus visual tokens, while progressively elevating visual expectations along decoding steps to counteract temporal visual forgetting. (c) Finally, Dual-grained Advantage Re-weighting strategy integrates VAC mechanism into intra- and inter-trajectory levels to explicitly incentivize sustained visual faithfulness during policy updates.
@@ -62,16 +59,6 @@
   
 
 ## 🔧 Getting Started
-
-  ### Requirements
-  
-  - Python 3.10
-  - PyTorch >= 2.4.0
-  - CUDA >= 12.1
-  - 8 x H20 (96G) GPUs (for 7B model)
-  - 16 x H20 (96G) GPUs (for 32B model)
-  
-  ### Installation
   
   ```bash
   conda create -n vgpo python=3.10 -y
@@ -130,18 +117,6 @@
   | MMMU-Pro            | Vision-dependent Multimodal Reasoning      |
   | MathVerse-V         | Vision-dependent Multimodal Reasoning      |
   
-## ✍️ Citation
-
-  If you find this codebase useful in your research, please consider giving us a star ⭐ and citing our work 📝:
-  
-  ```bibtex
-  @article{wang2026vgpo,
-    title={Visually-Guided Policy Optimization for Multimodal Reasoning},
-    author={Wang, Zengbin and Xiong, Feng and Lin, Liang and Hu, Xuecai and Wang, Yong and Wang, Yanlin and Zhang, Man and Chu, Xiangxiang},
-    booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
-    year={2026}
-  }
-```
 
 ## Acknowledgements
 
