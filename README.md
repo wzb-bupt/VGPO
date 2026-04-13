@@ -4,6 +4,24 @@
     VGPO: Visually-Guided Policy Optimization for Multimodal Reasoning
   </h1>  
 
+  <p align="center">
+    <a href='https://arxiv.org/abs/2604.09349'>
+      <img src='https://img.shields.io/badge/Arxiv-VGPO-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+    </a>
+    &nbsp;
+    <a href='https://huggingface.co/papers/2604.09349'>
+      <img src='https://img.shields.io/badge/HuggingFace-Paper-FFB000?style=flat&logo=huggingface&logoColor=white'>
+    </a>
+    &nbsp;
+    <a href='https://huggingface.co/MuMing0102/VGPO-RL-7B'>
+      <img src='https://img.shields.io/badge/HuggingFace-VGPO(7B)-FFB000?style=flat&logo=huggingface&logoColor=white'>
+    </a>
+    &nbsp;
+    <a href='https://huggingface.co/MuMing0102/VGPO-RL-32B'>
+      <img src='https://img.shields.io/badge/HuggingFace-VGPO(32B)-FFB000?style=flat&logo=huggingface&logoColor=white'>
+    </a>
+  </p>
+
 **Zengbin Wang**<sup>1*</sup>, 
 **Feng Xiong**<sup>1*</sup>, 
 **Xuecai Hu**<sup>1†</sup>, 
@@ -116,7 +134,20 @@
   | SuperClevr Counting | Vision-dependent Multimodal Reasoning      |
   | MMMU-Pro            | Vision-dependent Multimodal Reasoning      |
   | MathVerse-V         | Vision-dependent Multimodal Reasoning      |
+
+
+## ✍️ Citation
+
+  If you find this codebase useful in your research, please consider giving us a star ⭐ and citing our work 📝:
   
+  ```bibtex
+  @article{wang2026vgpo,
+    title={Visually-Guided Policy Optimization for Multimodal Reasoning}, 
+    author={Zengbin Wang and Feng Xiong and Liang Lin and Xuecai Hu and Yong Wang and Yanlin Wang and Man Zhang and Xiangxiang Chu},
+    journal={arXiv preprint arXiv:2604.09349},
+    year={2026}
+  }
+```
 
 ## Acknowledgements
 
