@@ -22,20 +22,6 @@
     </a>
   </p>
 
-**Zengbin Wang**<sup>1*</sup>, 
-**Feng Xiong**<sup>1*</sup>, 
-**Xuecai Hu**<sup>1†</sup>, 
-**Yong Wang**<sup>1†</sup>, 
-**Yanlin Wang**<sup>2</sup>, 
-**Man Zhang**<sup>3</sup>, 
-**Xiangxiang Chu**<sup>1</sup>
-
-  <sup>1</sup>AMAP, Alibaba Group,  &nbsp; 
-  <sup>3</sup>SYSU,  &nbsp; 
-  <sup>2</sup>BUPT
-  <br>
-  <sup>*</sup>Equal contribution,  &nbsp; <sup>†</sup>Project leads and corresponding authors.
-
 </div></font>
 
 ## 🔥 News
